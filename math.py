@@ -60,6 +60,8 @@ import math
 messy="Python is##3########### a great!!!!!!!!!!!!!!!!! programming language!"
 cleaned_messy = messy.replace("#", " ").replace("!", " ")
 print("Cleaned messy string:", cleaned_messy)
+print("Length of cleaned string:", len(cleaned_messy))
+print(cleaned_messy.capitalize())
 
 
 
