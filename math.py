@@ -39,6 +39,16 @@ upper_value = math.ceil(value)
 print("The upper value of", value, "is:", upper_value)
 down_value = math.floor(value)
 print("The down value of", value, "is:", down_value)
+#string function
+text = "Hello, World!"
+print("Original text:", text)
+print("Uppercase:", text.upper())
+print("Lowercase:", text.lower())
+#string slicing
+sliced_text = text[0:5]
+print("Sliced text:", sliced_text)
+
+
 
 
 
